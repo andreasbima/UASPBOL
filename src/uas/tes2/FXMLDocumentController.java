@@ -42,8 +42,6 @@ public class FXMLDocumentController implements Initializable {
     private Button btnkeluar;
     @FXML
     private Button btndaftar;
-    @FXML
-    private Button btnadmin;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -118,20 +116,4 @@ public class FXMLDocumentController implements Initializable {
         }
     }
 
-    @FXML
-    private void adminklik(ActionEvent event) {
-//        try {
-//            FXMLLoader loader = new FXMLLoader(getClass().getResource("FXML_admin.fxml"));
-//            Parent root = (Parent) loader.load();
-//            Scene scene = new Scene(root);
-//            Stage stg = new Stage();
-//            stg.initModality(Modality.APPLICATION_MODAL);
-//            stg.setResizable(false);
-//            stg.setIconified(false);
-//            stg.setScene(scene);
-//            stg.show();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-    }
 }

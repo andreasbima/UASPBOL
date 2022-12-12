@@ -14,9 +14,8 @@
       <Label layoutX="94.0" layoutY="138.0" text="Password" />
       <TextField fx:id="txtuser" layoutX="168.0" layoutY="83.0" />
       <TextField fx:id="txtpassword" layoutX="168.0" layoutY="134.0" />
-      <Button fx:id="btnmasuk" layoutX="41.0" layoutY="210.0" mnemonicParsing="false" onAction="#masukklik" prefHeight="25.0" prefWidth="57.0" text="Masuk" />
-      <Button fx:id="btnkeluar" layoutX="325.0" layoutY="210.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="57.0" text="Keluar" />
-      <Button fx:id="btndaftar" layoutX="141.0" layoutY="210.0" mnemonicParsing="false" onAction="#daftarklik" prefHeight="25.0" prefWidth="57.0" text="Daftar" />
-      <Button fx:id="btnadmin" layoutX="232.0" layoutY="210.0" mnemonicParsing="false" onAction="#adminklik" prefHeight="25.0" prefWidth="57.0" text="Admin" />
+      <Button fx:id="btnmasuk" layoutX="78.0" layoutY="210.0" mnemonicParsing="false" onAction="#masukklik" prefHeight="25.0" prefWidth="57.0" text="Masuk" />
+      <Button fx:id="btnkeluar" layoutX="276.0" layoutY="210.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="57.0" text="Keluar" />
+      <Button fx:id="btndaftar" layoutX="178.0" layoutY="210.0" mnemonicParsing="false" onAction="#daftarklik" prefHeight="25.0" prefWidth="57.0" text="Daftar" />
    </children>
 </AnchorPane>
