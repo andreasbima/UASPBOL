@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uas.tes2.FXML_negaraController">
+   <children>
+      <TableView fx:id="tbvnegara" layoutX="22.0" layoutY="43.0" onMouseClicked="#negarapilih" prefHeight="346.0" prefWidth="336.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="153.0" layoutY="14.0" text="Daftar Negara" />
+      <Button fx:id="btnpernah" layoutX="22.0" layoutY="398.0" mnemonicParsing="false" onAction="#pernahklik" text="Pernah ke Sini" />
+   </children>
+</AnchorPane>

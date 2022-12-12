@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="348.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uas.tes2.FXML_homepageController">
+   <children>
+      <ImageView fitHeight="288.0" fitWidth="422.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../petadunia.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="35.0" text="Peta Dunia" />
+      <Button fx:id="btnhistory" layoutX="266.0" layoutY="40.0" mnemonicParsing="false" onAction="#historyklik" text="History" />
+      <Button fx:id="btnlogout" layoutX="335.0" layoutY="40.0" mnemonicParsing="false" onAction="#logoutklik" text="Logout" />
+      <Button fx:id="btnamerikau" layoutX="66.0" layoutY="133.0" mnemonicParsing="false" onAction="#amerikauklik" prefHeight="25.0" prefWidth="25.0" />
+      <Button fx:id="btnamerikas" layoutX="104.0" layoutY="231.0" mnemonicParsing="false" onAction="#amerikasklik" prefHeight="25.0" prefWidth="25.0" />
+      <Button fx:id="btneropa" layoutX="199.0" layoutY="133.0" mnemonicParsing="false" onAction="#eropaklik" prefHeight="25.0" prefWidth="25.0" />
+      <Button fx:id="btnafrika" layoutX="212.0" layoutY="197.0" mnemonicParsing="false" onAction="#afrikaklik" prefHeight="25.0" prefWidth="25.0" />
+      <Button fx:id="btnasia" layoutX="302.0" layoutY="133.0" mnemonicParsing="false" onAction="#asiaklik" prefHeight="25.0" prefWidth="25.0" />
+      <Button fx:id="btnaustralia" layoutX="356.0" layoutY="244.0" mnemonicParsing="false" onAction="#australiaklik" prefHeight="25.0" prefWidth="25.0" />
+      <Label fx:id="lbluser" layoutX="14.0" layoutY="14.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="316.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uas.tes2.FXML_inputnegaraController">
+   <children>
+      <Label layoutX="153.0" layoutY="33.0" text="INPUT NEGARA" />
+      <Label layoutX="71.0" layoutY="90.0" text="ID Negara" />
+      <Label layoutX="70.0" layoutY="127.0" text="Nama Negara" />
+      <Label layoutX="70.0" layoutY="209.0" text="Benua" />
+      <TextField fx:id="txtidnegara" layoutX="172.0" layoutY="86.0" />
+      <TextField fx:id="txtnamanegara" layoutX="171.0" layoutY="123.0" />
+      <TextField fx:id="txtibukota" layoutX="171.0" layoutY="164.0" />
+      <TextField fx:id="txtbenua" layoutX="171.0" layoutY="205.0" />
+      <Button fx:id="btnsimpan" layoutX="42.0" layoutY="268.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="166.0" layoutY="268.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="25.0" prefWidth="56.0" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="292.0" layoutY="268.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="56.0" text="Keluar" />
+      <Label layoutX="70.0" layoutY="168.0" text="Ibu Kota" />
+   </children>
+</AnchorPane>
